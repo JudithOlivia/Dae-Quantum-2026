@@ -1,0 +1,284 @@
+# Learning Notes: Interference & Deutsch-Jozsa Algorithm
+## Day 5 Self-Directed Learning
+
+**Student Name:** Kimora Dash
+
+**Date:** February 4, 2026
+
+**Learning Tool:** NotebookLM
+
+---
+
+## 🎯 MY LEARNING GOALS FOR TODAY
+
+By the end of this session, I want to understand:
+- [ ] What quantum interference is and why it matters
+- [ ] How the Z gate works
+- [ ] The H-Z-H pattern
+- [ ] What problem Deutsch-Jozsa algorithm solves
+- [ ] How Deutsch-Jozsa is faster than classical computers
+
+---
+
+# PART 1: QUANTUM INTERFERENCE
+
+## What is Quantum Interference?
+
+**In my own words:**
+
+[Quantum interference is when the waves cancel each other out due to adding waves or through the z gate]
+
+---
+
+## The Z Gate
+
+**What does the Z gate do?**
+
+[The Z Gate is when the 0 stays a 0 and the 1 changes to a -1 but the negative doesnt mean the number itself is changing it only flips creating a wave] 
+
+**Draw or describe the effect:**
+
+|0⟩ → _0______________
+
+|1⟩ → -1_______________
+
+---
+
+## The H-Z-H Pattern
+
+**Step 1: First H gate does...**
+
+[The first H gate put it into superposition and basically saying that the result can either be 0 or 1]
+
+**Step 2: Z gate does...**
+
+[The Z gate flips the number one and turned it into -1 so you can tell if the outcome is balanced or all the same outcome]
+
+**Step 3: Second H gate does...**
+
+[The second H gate figures out if the results cancel each other out or not]
+
+**The result is:**
+
+[Your explanation]
+
+--- basically its giving you a final answer or solution to the problem
+
+## Why Does This Matter?
+this matters because youll get your solution and youll know the process and how quantum came up with it.
+
+**How is interference used in quantum algorithms?**
+
+[interference is basically the way to make certain parts stand out like how the Z gate flipes the ones.]
+
+---
+
+**Something that clicked for me about interference:**
+
+[something that instantly made sense was how the Z gate]
+
+---
+
+## ❓ Questions I Still Have About Interference
+
+1. _______________________________________________
+
+2. _______________________________________________
+
+3. _______________________________________________
+
+---
+
+# PART 2: DEUTSCH-JOZSA ALGORITHM
+
+## The Problem It Solves
+
+**What is the mystery box problem?**
+
+[Explain in your own words: What is constant vs balanced?]
+
+**Constant function means:**
+
+[Constant meaning the results are the same multiple times]
+
+**Balanced function means:**
+
+[balanced is when the outcome is more than one variable]
+
+---
+
+## Classical vs Quantum Solution
+
+### Classical Computer Approach:
+
+**How many checks does a classical computer need?**
+
+[Your answer]
+
+**Why can't it do better?**
+
+[Your explanation]
+
+---
+
+### Quantum Computer Approach:
+
+**How many checks does a quantum computer need?**
+
+[Your answer]
+
+**How is this possible?**
+
+[Your explanation - mention superposition, interference]
+
+---
+
+## How the Circuit Works
+
+**Step-by-step explanation:**
+
+**Step 1:**
+
+[What happens first?]
+
+**Step 2:**
+
+[What happens with the oracle?]
+
+**Step 3:**
+
+[What happens at the end?]
+
+**Step 4:**
+
+[What do we measure?]
+
+---
+
+## Understanding the Result
+
+**If we measure |00⟩, this means:**
+
+[Your explanation]
+
+**If we measure something else, this means:**
+
+[Your explanation]
+
+---
+
+## Real-World Connection
+
+**Why is this algorithm important even though it solves a "toy" problem?**
+
+[Your explanation - what technique does it demonstrate?]
+
+**Where is this technique used in real quantum algorithms?**
+
+[Your answer]
+
+---
+
+
+**Something that clicked for me about Deutsch-Jozsa:**
+
+[What suddenly made sense?]
+
+---
+
+## ❓ Questions I Still Have About Deutsch-Jozsa
+
+1. _______________________________________________
+
+2. _______________________________________________
+
+3. _______________________________________________
+
+---
+
+# PART 3: CONNECTING THE CONCEPTS
+
+## How Interference Powers Deutsch-Jozsa
+
+**Explain how the Deutsch-Jozsa algorithm uses interference:**
+
+[Your explanation - connect Part 1 and Part 2]
+
+---
+
+## Classical vs Quantum Thinking
+
+**Before learning this, I thought:**
+
+[Your answer]
+
+**Now I understand:**
+
+[Your answer]
+
+**This changes my perspective because:**
+
+[Your answer]
+
+---
+
+# PART 4: BUILDING THE CIRCUIT
+
+## H-Z-H Practice Circuit
+
+**I tried building this circuit:**
+
+```
+q[0]: ──H──Z──H──M──
+```
+
+**What I predicted would happen:**
+
+[Your prediction]
+
+**What actually happened:**
+
+[Your result]
+
+**Why this result makes sense:**
+
+[Your explanation]
+
+---
+
+## Deutsch-Jozsa Circuit
+
+**Did you try building a Deutsch-Jozsa circuit?**
+- [ ] Yes, I built it!
+- [ ] Not yet, but I will
+
+**If yes, what type of oracle did you build?**
+- [ ] Constant oracle
+- [ ] Balanced oracle
+
+**What result did you get?**
+
+[Your answer]
+
+---
+
+# PART 5: KEY TAKEAWAYS
+
+## Three Most Important Things I Learned Today
+
+### 1.
+
+[First key takeaway]
+
+### 2.
+
+[Second key takeaway]
+
+### 3.
+
+[Third key takeaway]
+
+---
+## 📝 ADDITIONAL NOTES & DOODLES
+
+[Use this space for any drawings, diagrams, random thoughts, or "lightbulb moments"]
